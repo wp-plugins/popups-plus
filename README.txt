@@ -2,7 +2,7 @@
 Contributors: itayyab0o1
 
 
-
+Text Domain: ppl
 Tags:  twitter,google+, facebook,Popups, twitter follow, facebook like, google plus,social boost, social splash, popup, facebook popup, scroll popups, popups, wordpress popup, wp popups, cf7, gf, gravity forms, contact form 7, ifs, infusion soft, subscribe
 Requires at least: 3.6
 Tested up to: 4.2.2
