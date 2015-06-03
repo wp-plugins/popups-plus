@@ -6,10 +6,10 @@ Contributors: itayyab0o1
 Tags:  twitter,google+, facebook,Popups, twitter follow, facebook like, google plus,social boost, social splash, popup, facebook popup, scroll popups, popups, wordpress popup, wp popups, cf7, gf, gravity forms, contact form 7, ifs, infusion soft, subscribe
 Requires at least: 3.6
 Tested up to: 4.2.2
-Stable tag: 1.0
+Stable tag: 1.1
 
 
-Most complete free Popups Plus plugin, scroll triggered popups, compatible with social networks, Gravity Forms, Ninja Forms, Contact form 7, etc
+Popups Plus plugin, scroll triggered popups, popups triggered with time, is compatible with most of the plugins.
 
 == Description ==
 
@@ -38,6 +38,9 @@ There are multiple display filters that can be combined:
 
 
 == Changelog ==
+= 1.1 = 
+
+* Added some options and removed bugs.
 
 = 1.0 = 
 

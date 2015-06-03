@@ -105,7 +105,7 @@ body {
 }
 p.ppl-powered {
     position: absolute;
-    bottom: -55px;
+    bottom: -55px;font-size:12px;
     width: 100%;
     text-align: center;
     color: #fff;

@@ -2,7 +2,7 @@
 // Exit if accessed directly
 if ( !defined( 'ABSPATH' ) ) exit;?>
 
-<table class="form-table">
+<table id="sectri" class="form-table">
 	
 	<?php do_action( 'ppl/metaboxes/before_display_options', $opts );?>
 	<tr valign="top">

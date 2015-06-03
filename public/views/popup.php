@@ -68,7 +68,7 @@ do_action( 'ppl/popup/before_popup', $box, $opts, $css);
 	<span class="ppl-close ppl-close-popup"><i class="ppl-icon ppl-icon-close"></i></span>
 	<span class="ppl-timer"></span>
 	<?php if( $opts['powered_link'] == '1' ) {
-		$aff_link = !empty($this->ppl_settings['aff_link']) ? $this->ppl_settings['aff_link'] : '#';
+		$aff_link = !empty($this->ppl_settings['aff_link']) ? $this->ppl_settings['aff_link'] : 'https://wordpress.org/plugins/popups-plus/';
 		?>
 		<p class="ppl-powered">Powered by <a href="<?php echo $aff_link;?>" target="_blank">Popups Plus</a></p>
 	<?php } ?>

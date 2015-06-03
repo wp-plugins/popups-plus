@@ -11,7 +11,7 @@
  * @PopupsPlus
  * Plugin Name:       Popups Plus
  * Plugin URI:        #
- * Version: 		  1.0
+ * Version: 		  1.1
  * Description: 	  This plugin will display a popup or splash screen when a new user visit your site showing a Google+, twitter and facebook follow links. This will increase you followers ratio in a 40%. Popup will be close depending on your settings. Check readme.txt for full details.
  * Author: 			  Tayyab
  * Author URI:        #
@@ -30,7 +30,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Public-Facing Functionality
  *----------------------------------------------------------------------------*/
 
-define( 'ppl_VERSION' , '1.0' );
+define( 'ppl_VERSION' , '1.1' );
 define( 'ppl_PLUGIN_DIR' , plugin_dir_path(__FILE__) );
 define( 'ppl_PLUGIN_URL' , plugin_dir_url(__FILE__) );
 define( 'ppl_PLUGIN_HOOK' , basename( dirname( __FILE__ ) ) . '/' . basename( __FILE__ ) );
@@ -73,3 +73,20 @@ if ( is_admin() ) {
 		add_action( 'admin_notices', array( $ppl_notices, 'rate_plugin') );
 
 }
+
+
+function pplfbs() {
+{
+?>
+<!-- : # -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<?php }}
+add_action('wp_head', 'pplfbs', 100);
+
