@@ -21,7 +21,7 @@ class PopupsPlus_Upgrader {
 				if ( $total > 0 ) {
 					update_option( 'ppl_plugin_updated', true );
 				}
-			} elseif ( ! empty( $current_version ) && version_compare( $current_version, ppl_VERSION, '<' ) ) {
+			} elseif ( ! empty( $current_version ) && version_compare( $current_version, PPL_VERSION, '<' ) ) {
 				update_option( 'ppl_plugin_updated', true );
 			}
 		}
