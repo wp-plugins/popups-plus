@@ -36,6 +36,10 @@ There are multiple display filters that can be combined:
 
 3. Go to Popups Plus menu and add as many popups as needed
 
+== Screenshots ==
+
+1. Popup screenshot.
+2. Full page view.
 
 == Changelog ==
 = 1.1 = 
