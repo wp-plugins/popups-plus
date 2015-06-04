@@ -9,7 +9,7 @@ Tested up to: 4.2.2
 Stable tag: 1.1
 
 
-Popups Plus plugin, scroll triggered popups, popups triggered with time, is compatible with most of the plugins.
+Popups Plus plugin, gives; scroll triggered popups, time triggered popups etc. It is compatible with most of the plugins.
 
 == Description ==
 
